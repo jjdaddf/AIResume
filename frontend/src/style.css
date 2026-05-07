@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 通用卡片样式 */
+.card {
+  @apply bg-white rounded-xl p-4 shadow-sm border border-gray-100;
+}
+
+/* 输入框样式 */
+.input-field {
+  @apply w-full px-3 py-2 border border-gray-200 rounded-lg text-sm outline-none transition-colors;
+}
+.input-field:focus {
+  @apply border-primary-400 ring-1 ring-primary-200;
+}
+
+/* 标签样式 */
+.label-text {
+  @apply block text-xs font-medium text-gray-500 mb-1;
+}
+
+/* 按钮 */
+.btn-primary {
+  @apply bg-primary-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors;
+}

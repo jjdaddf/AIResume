@@ -38,6 +38,15 @@ class ThemeStyle(str, Enum):
     COPPER = "copper"
     ICE = "ice"
     MAPLE = "maple"
+    # 侧边栏/双栏布局主题
+    NAVY_SIDEBAR = "navy-sidebar"
+    EMERALD_SIDEBAR = "emerald-sidebar"
+    BURGUNDY_SIDEBAR = "burgundy-sidebar"
+    OBSIDIAN_SIDEBAR = "obsidian-sidebar"
+    VIOLET_SIDEBAR = "violet-sidebar"
+    TEAL_SIDEBAR = "teal-sidebar"
+    AMBER_TWOCOL = "amber-twocol"
+    SLATE_TWOCOL = "slate-twocol"
 
 
 # ==================== 简历数据模型 ====================
