@@ -1,18 +1,9 @@
-# ===== 前端 =====
-frontend/node_modules/
-frontend/dist/
-
-# ===== 后端 =====
-backend/venv/
-backend/__pycache__/
-backend/**/__pycache__/
-backend/*.pyc
-backend/.env
-backend/exports/
-
-# ===== 通用 =====
-.DS_Store
-Thumbs.db
-*.log
+node_modules/
+dist/
 .env
-*.local
+*.pyc
+__pycache__/
+exports/
+.venv/
+venv/
+*.egg-info/
